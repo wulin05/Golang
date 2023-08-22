@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+// 基本数据类型转换成字符串类型
 func main() {
 	var n1 int = 18
 	var s1 string = strconv.FormatInt(int64(n1), 10) //参数:第一个参数必须转为int64类型，第二个参数指定字面值的进制形式为十进制

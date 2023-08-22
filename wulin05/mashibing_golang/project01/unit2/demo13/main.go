@@ -5,11 +5,12 @@ import (
 	"strconv"
 )
 
+// 字符串类型转换其他基本数据类型
 func main() {
 	//string--->bool
 	var s1 string = "true"
 	var b bool
-	//ParseBool这个函数有两个返回值: (value bool, err error
+	//ParseBool这个函数有两个返回值: (value bool, err error)
 	b, _ = strconv.ParseBool(s1)
 	//其中b = %t,t表示值是bool类型,如果是用 %v，表示值的默认格式表示
 	fmt.Printf("b的类型是: %T, b = %t \n", b, b)

@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//基本数据类型转换成字符串类型
 func main() {
 
 	//n1 := 19
